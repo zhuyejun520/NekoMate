@@ -1,0 +1,17 @@
+* text=auto eol=lf
+*.py text
+*.java text
+*.md text
+*.xml text
+*.json text
+*.yml text
+*.yaml text
+*.sh text eol=lf
+*.ps1 text eol=crlf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.apk binary
+*.jks binary

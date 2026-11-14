@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>夜音 · AI 伴侣 · 控制台</title>
+  <link rel="icon" href="/admin/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/admin/style.css?v=1.0.0">
+</head>
+<body>
+<div class="aurora" aria-hidden="true">
+  <span class="orb o1"></span>
+  <span class="orb o2"></span>
+  <span class="orb o3"></span>
+  <div class="grid-lines"></div>
+</div>
+
+<section id="login-view" class="login hidden">
+  <div class="login-card card">
+    <div class="brand brand-lg">
+      <div class="logo">🌙</div>
+      <div class="brand-text">
+        <strong>夜音 NekoMate</strong>
+        <span>AI 伴侣服务端 · 控制台</span>
+      </div>
+    </div>
+    <form id="login-form" autocomplete="on">
+      <label class="field">
+        <span>管理员账号</span>
+        <input id="login-user" name="username" autocomplete="username" placeholder="admin" required>
+      </label>
+      <label class="field">
+        <span>密码</span>
+        <input id="login-pass" name="password" type="password" autocomplete="current-password" placeholder="••••••••" required>
+      </label>
+      <button class="btn primary block" type="submit">进入控制台</button>
+      <p class="hint" id="login-hint">默认账号 admin / change-me-now，登录后请立即修改密码</p>
+    </form>
+  </div>
+  <p class="login-foot">NekoMate Server v1.0.0 · FastAPI + SQLite + Docker</p>
+</section>
+
+<div id="app-view" class="shell hidden">
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="logo">🌙</div>
+      <div class="brand-text"><strong>夜音 NekoMate</strong><span>AI 伴侣控制台</span></div>
+    </div>
+    <nav id="nav" class="nav"></nav>
+    <div class="sidebar-foot">
+      <div class="conn" id="server-status"><i></i><span>连接中…</span></div>
+      <div class="ver" id="version-text">v1.0.0</div>
+    </div>
+  </aside>
+  <main class="main">
+    <header class="topbar">
+      <div class="topbar-title">
+        <h2 id="page-title">欢迎</h2>
+        <p id="page-sub" class="muted">正在加载…</p>
+      </div>
+      <div class="topbar-actions">
+        <span id="online-pill" class="pill">0 在线</span>
+        <button class="btn ghost sm" id="refresh-btn" title="刷新当前页面">刷新</button>
+        <button class="btn ghost sm" id="logout-btn">退出</button>
+      </div>
+    </header>
+    <div id="page" class="page"></div>
+  </main>
+</div>
+
+<div id="toast-wrap" class="toast-wrap" aria-live="polite"></div>
+<div id="modal-root"></div>
+<script src="/admin/app.js?v=1.0.0"></script>
+</body>
+</html>

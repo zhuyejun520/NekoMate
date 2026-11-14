@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 浅色主题（默认） -->
+    <color name="bg">#F5F4FA</color>
+    <color name="bg_soft">#FFFFFF</color>
+    <color name="panel">#FFFFFF</color>
+    <color name="panel2">#F0EDF9</color>
+    <color name="input_bg">#FBFAFF</color>
+    <color name="tag_bg">#F0EDF9</color>
+    <color name="text">#1D1A2B</color>
+    <color name="muted">#6C6784</color>
+    <color name="muted2">#9892AC</color>
+    <color name="accent">#7A5CFF</color>
+    <color name="accent2">#E85D9E</color>
+    <color name="green">#12996B</color>
+    <color name="yellow">#B7791F</color>
+    <color name="red">#D64560</color>
+    <color name="border">#E4E0F0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

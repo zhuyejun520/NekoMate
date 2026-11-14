@@ -1,0 +1,5 @@
+name: astrbot_plugin_neko_tools
+display_name: 猫猫小工具
+desc: 骰子、今日运势、看时间。发送 /roll、/运势、/几点了
+author: NekoMate
+version: 1.0.0

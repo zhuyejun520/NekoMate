@@ -1,0 +1,6 @@
+name: astrbot_plugin_hello_world
+display_name: 打招呼示例
+desc: AstrBot 兼容示例插件，发送 /hello 或 /你好 试试
+author: NekoMate
+version: 1.0.0
+repo: https://github.com/

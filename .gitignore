@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment and local data
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+data/
+data-*/
+server/data/
+logs/
+*.log
+
+# Android
+android/build/
+android/build-test/
+android/dist/
+android/keystore/
+*.apk
+*.aab
+*.jks
+*.keystore
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+
+# Temporary files
+.tmp/
+*.tmp
+*.bak

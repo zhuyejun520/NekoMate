@@ -1,0 +1,13 @@
+{
+  "max_sides": {
+    "type": "int",
+    "default": 100,
+    "description": "骰子最大面数（2-1000）"
+  },
+  "fortune_style": {
+    "type": "select",
+    "options": ["温和", "毒舌"],
+    "default": "温和",
+    "description": "运势文案风格"
+  }
+}

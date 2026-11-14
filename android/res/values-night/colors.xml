@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 深色主题（values-night，客户端切换主题时强制 uiMode） -->
+    <color name="bg">#07060E</color>
+    <color name="bg_soft">#0B0914</color>
+    <color name="panel">#14111F</color>
+    <color name="panel2">#1B1729</color>
+    <color name="input_bg">#0F0C1A</color>
+    <color name="tag_bg">#241F38</color>
+    <color name="text">#ECE9FB</color>
+    <color name="muted">#9D98BB</color>
+    <color name="muted2">#6F6A8F</color>
+    <color name="accent">#8B6CFF</color>
+    <color name="accent2">#FF6FAE</color>
+    <color name="green">#45E0A8</color>
+    <color name="yellow">#FFC75A</color>
+    <color name="red">#FF6B81</color>
+    <color name="border">#2A2440</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>
